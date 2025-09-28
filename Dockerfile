@@ -1,3 +1,4 @@
+# this works, but maybe a more up-to date image may be better/faster, check here: https://hub.docker.com/r/rocm/pytorch/tags
 FROM docker.io/rocm/pytorch:rocm7.0_ubuntu24.04_py3.12_pytorch_release_2.8.0
 
 ENV COMFYUI_PATH=/workload/ComfyUI
